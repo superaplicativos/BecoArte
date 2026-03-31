@@ -12,13 +12,14 @@ Site estático do Beco Street preparado para publicação no GitHub Pages.
 
 ## Publicação
 
-O projeto já está pronto para ser publicado como site estático.
+O repositório já inclui workflow de deploy para GitHub Pages em `.github/workflows/deploy-pages.yml`.
 
-Opção recomendada no GitHub Pages:
+Fluxo recomendado:
 
-1. subir o conteúdo desta pasta para o repositório
-2. ativar GitHub Pages em `Settings > Pages`
-3. selecionar a branch principal e a pasta `/ (root)`
+1. manter os arquivos desta pasta na branch `main`
+2. abrir `Settings > Pages`
+3. selecionar `GitHub Actions` como source
+4. a cada push, o deploy roda automaticamente
 
 ## Observação
 
