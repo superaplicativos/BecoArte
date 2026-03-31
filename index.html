@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beco Street — Arte urbana original em uma nova experiência</title>
+  <meta name="description" content="Beco Street em uma nova experiência visual inspirada no STRAAT: obras, artistas, textos e preços em uma navegação forte, urbana e contemporânea.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#hero">
+        <span class="brand-mark" aria-label="Beco Street">
+          <span>BECO</span>
+          <span>STREET</span>
+        </span>
+        <span class="brand-copy">
+          <strong>Acervo original</strong>
+          <small>design editorial escuro, brutalista e imersivo</small>
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="#hero">Início</a>
+        <a href="#manifesto">Manifesto</a>
+        <a href="#highlights">Destaques</a>
+        <a href="#collection">Coleção</a>
+        <a href="#stories">Textos</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Beco Street · street art, graffiti e acervo colecionável</p>
+          <h1>Presença monumental para um acervo urbano real.</h1>
+          <p class="hero-text">
+            O conteúdo continua sendo 100% Beco Street: obras, artistas, preços, textos e imagens do acervo original. O visual agora segue uma direção mais crua, escura, industrial e monumental para aproximar a experiência da força visual de um grande espaço dedicado ao graffiti.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#collection">Explorar coleção</a>
+            <a class="button button-secondary" href="https://api.whatsapp.com/send?phone=5511994317886&amp;text=EU%20QUERO%20COMPRAR%20UMA%20OBRA%20DO%20BECO%20STREET" target="_blank" rel="noopener">Comprar Agora</a>
+          </div>
+          <div class="hero-notes">
+            <article class="hero-note">
+              <span class="hero-note-label">Ambiente</span>
+              <strong>Escuro, industrial e imersivo</strong>
+            </article>
+            <article class="hero-note">
+              <span class="hero-note-label">Conteúdo</span>
+              <strong>Somente Beco Street</strong>
+            </article>
+          </div>
+          <div class="hero-stats" id="hero-stats">
+            <article class="stat-card">
+              <strong id="stat-products">--</strong>
+              <span>obras carregadas</span>
+            </article>
+            <article class="stat-card">
+              <strong id="stat-artists">--</strong>
+              <span>artistas mapeados</span>
+            </article>
+            <article class="stat-card">
+              <strong id="stat-categories">--</strong>
+              <span>categorias do acervo</span>
+            </article>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-panel hero-panel-large" id="hero-feature-main"></div>
+          <div class="hero-stack" id="hero-feature-stack"></div>
+        </div>
+      </section>
+
+      <section class="marquee-band" aria-label="Identidade visual do acervo">
+        <div class="marquee-track">
+          <span>BECO STREET</span>
+          <span>GRAFFITI</span>
+          <span>ARTE URBANA</span>
+          <span>ACERVO ORIGINAL</span>
+          <span>COLEÇÃO ESTÁTICA</span>
+          <span>BECO STREET</span>
+          <span>GRAFFITI</span>
+          <span>ARTE URBANA</span>
+        </div>
+      </section>
+
+      <section class="manifesto section" id="manifesto">
+        <div class="section-heading">
+          <p class="eyebrow">Manifesto Beco Street</p>
+          <h2>Escala de museu, energia de rua e conteúdo comercial pronto para venda.</h2>
+        </div>
+        <div class="manifesto-grid" id="manifesto-grid">
+          <article class="manifesto-card is-loading"></article>
+          <article class="manifesto-card is-loading"></article>
+          <article class="manifesto-card is-loading"></article>
+        </div>
+      </section>
+
+      <section class="highlights section" id="highlights">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">Highlights</p>
+            <h2>Grandes imagens, recorte editorial forte e leitura mais próxima de uma exposição.</h2>
+          </div>
+          <p class="section-sidecopy">
+            A direção visual valoriza superfícies amplas, contraste alto, tipografia marcante e blocos de imagem que deixam a obra respirar.
+          </p>
+        </div>
+        <div class="featured-grid" id="featured-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="collection section" id="collection">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">Obras</p>
+            <h2>Explore o acervo completo em uma navegação estática mais limpa, rápida e forte.</h2>
+          </div>
+          <div class="collection-tools">
+            <label class="search">
+              <span>Buscar obra ou artista</span>
+              <input id="search-input" type="search" placeholder="Ex.: Tché Ruggi, Veiz, abstrato">
+            </label>
+          </div>
+        </div>
+        <div class="filter-bar" id="filter-bar"></div>
+        <div class="collection-meta">
+          <p id="collection-count">Carregando obras...</p>
+        </div>
+        <div class="collection-grid" id="collection-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="artists section" id="artists">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">Artistas em destaque</p>
+            <h2>Assinaturas que sustentam a identidade visual do acervo.</h2>
+          </div>
+          <p class="section-sidecopy">
+            A leitura foi reorganizada para destacar recorrência, linguagem e presença dos artistas sem poluição de e-commerce.
+          </p>
+        </div>
+        <div class="artist-wall" id="artist-wall"></div>
+      </section>
+
+      <section class="stories section" id="stories">
+        <div class="section-heading">
+          <p class="eyebrow">Histórias</p>
+          <h2>Textos originais do Beco Street com apresentação editorial mais forte.</h2>
+        </div>
+        <div class="story-grid" id="story-grid">
+          <article class="story-card is-loading"></article>
+          <article class="story-card is-loading"></article>
+          <article class="story-card is-loading"></article>
+        </div>
+      </section>
+
+      <section class="cta section">
+        <div class="cta-panel">
+          <p class="eyebrow">Compra direta</p>
+          <h2>Quer fechar uma obra agora?</h2>
+          <p>
+            Escolha a obra no acervo, abra o WhatsApp e siga a conversa direto com o time do Beco Street sem carrinho, sem login e sem etapas desnecessárias.
+          </p>
+          <a class="button button-primary" href="https://api.whatsapp.com/send?phone=5511994317886&amp;text=EU%20QUERO%20COMPRAR%20UMA%20OBRA%20DO%20BECO%20STREET" target="_blank" rel="noopener">Comprar Agora</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>BECO STREET</p>
+      <p>Arte urbana original, curadoria viva e experiência visual renovada.</p>
+    </footer>
+  </div>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
